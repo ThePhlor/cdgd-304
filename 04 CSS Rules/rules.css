@@ -1,28 +1,28 @@
 body {
-    font-family: helvetica;
+    font-family: papyrus;
 }
 
 p {
-    font-size: 14;
+    font-size: 8;
 }
 
 h1 {
-    color: darkcyan;
-    font-size: 24;
+    color: hotpink;
+    font-size: 30;
 }
 
 #subinfo {
-    font-size: 14;
+    font-size: 12;
 }
 
 h2 {
-    font-size: 20;
-    background-color: darkcyan;
+    font-size: 26;
+    background-color: orange;
 }
 
 ul {
-    font-size: 14;
-    line-height: 2;
+    font-size: 6;
+    line-height: 10;
 }
 
 ol {
@@ -31,11 +31,11 @@ ol {
 }
 
 #tag {
-    font-size: 18
+    font-size: 20
 }
 
 tr {
-    color: darkcyan;
+    color: khaki;
 }
 
 figcaption {
@@ -43,16 +43,17 @@ figcaption {
 }
 
 a:link {
-    color: lightpink;
-    text-decoration: none;
+    color: palegreen;
+    text-decoration: line-through;
 }
 
 a:visited {
-    color: gainsboro;
+    color: blue;
 }
 
 a:hover {
     color: red;
+    font-size: 50;
 }
 
 
