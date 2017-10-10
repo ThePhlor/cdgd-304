@@ -1,0 +1,65 @@
+body {
+    font-family: helvetica;
+}
+
+p {
+    font-size: 14;
+}
+
+h1 {
+    color: darkcyan;
+    font-size: 24;
+}
+
+#subinfo {
+    font-size: 14;
+}
+
+h2 {
+    font-size: 20;
+    background-color: darkcyan;
+}
+
+ul {
+    font-size: 14;
+    line-height: 2;
+}
+
+ol {
+    font-size: 14;
+    line-height: 1;
+}
+
+#tag {
+    font-size: 18
+}
+
+tr {
+    color: darkcyan;
+}
+
+figcaption {
+    font-size: 14;
+}
+
+a:link {
+    color: lightpink;
+    text-decoration: none;
+}
+
+a:visited {
+    color: gainsboro;
+}
+
+a:hover {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
