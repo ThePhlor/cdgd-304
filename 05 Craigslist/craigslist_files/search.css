@@ -1,5 +1,3 @@
-}
-
 a {
     text-decoration: none
 }
@@ -1485,16 +1483,14 @@ span.cur_day {
 }
 
 .result-info {
-    font-family: roboto
+    font-family: "Times New Roman", Times, serif;
     line-height: 20px;
     margin: 0;
     text-overflow: ellipsis
 }
 
 .result-title {
-    @font-face {
-    font-family: robotoslab
-    src: url(robotoslab-regular.ttf);
+    font-family: "Times New Roman", Times, serif
 }
 
 .result-meta {
