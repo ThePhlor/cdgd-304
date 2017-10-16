@@ -1,5 +1,17 @@
+@font-face {
+    font-family: "rs";
+    src: url('robotoslabregular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "rob";
+    src: url('robotoregular.ttf') format('truetype');
+}
+
 a {
-    text-decoration: none
+    text-decoration: none;
+    font-family: rs !important;
+    color: white;
 }
 
 a:hover {
@@ -49,7 +61,7 @@ aside.highlight {
     color: #111;
     display: block;
     font-size: 1em;
-    font-family: "Arial", sans-serif;
+    font-family: rs;
     height: 100%;
     line-height: 2.3;
     padding: 1px 4px;
@@ -407,7 +419,7 @@ span.cur_day {
     }
 
     .list .search-legend {
-        padding-bottom: .5em
+        padding-bottom: 1em
     }
 
     .search-legend .search-sort {
@@ -445,7 +457,9 @@ span.cur_day {
 
 .search-options-container button, .search-options-container label, .search-options-container select, .search-options-container input {
     font-size: 1em;
-    margin-left: 0
+    margin-left: 0;
+    font-family: rob;
+    color: white;
 }
 
 .search-options-container .tsb {
@@ -546,7 +560,9 @@ span.cur_day {
 .searchgroup .searchfieldlabel {
     font-size: 70%;
     text-transform: uppercase;
-    display: block
+    display: block;
+    padding-bottom: 5px;
+    color: white;
 }
 
 .searchgroup:after {
@@ -684,7 +700,8 @@ span.cur_day {
 }
 
 .search-attribute .title {
-    cursor: pointer
+    cursor: pointer;
+    color: white;
 }
 
 .search-attribute .title .plus {
@@ -812,7 +829,8 @@ span.cur_day {
 }
 
 .minmax input {
-    width: 4em
+    width: 4em;
+    font-family: rob;
 }
 
 .auto_make_model {
@@ -954,12 +972,15 @@ span.cur_day {
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
         box-shadow: none;
-        background-color: #fff;
+        background-color: #0696d4;
         border: 0;
         display: block;
-        margin: 0;
-        padding: 0;
-        width: 100%
+        margin-right: 5px;
+        width: 100%;
+        padding-bottom: 5px;
+        padding-top: 1px;
+        padding-left: 20px;
+        padding-right: 40px;
     }
 
     .categories.searchgroup {
@@ -1263,7 +1284,7 @@ span.cur_day {
     }
 
     .saveme:visited {
-        color: #00e
+        color: #0696d4;
     }
 }
 
@@ -1483,19 +1504,21 @@ span.cur_day {
 }
 
 .result-info {
-    font-family: "Times New Roman", Times, serif;
+    font-family: rob;
     line-height: 20px;
     margin: 0;
     text-overflow: ellipsis
 }
 
 .result-title {
-    font-family: "Times New Roman", Times, serif
+    font-family: rs;
+    font-size: 10pt;
+    color: #0696d4;
 }
 
 .result-meta {
-    font-family: "Arial", sans-serif;
-    font-size: 13px;
+    font-family: rob;
+    font-size: 11px;
     line-height: 18px;
     margin: 2px 0 0 0
 }
@@ -1510,7 +1533,7 @@ span.cur_day {
 }
 
 .result-meta .result-tags .maptag {
-    color: #080
+    color: #e95858;
 }
 
 .restore-link {
@@ -1824,7 +1847,7 @@ span.cur_day {
     border-radius: .25em;
     border: 1px solid #ccc;
     font-size: 12px;
-    font-family: "Arial", sans-serif;
+    font-family: rob;
     padding: 1px 3px
 }
 

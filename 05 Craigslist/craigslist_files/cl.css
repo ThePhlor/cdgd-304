@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "rob";
+    src: url('robotoregular.ttf') format('truetype')
+}
+
 .icon {
     display: -moz-inline-stack;
     display: inline-block;
@@ -88,7 +93,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
     vertical-align: baseline
 }
 
@@ -162,11 +166,11 @@ html, body {
 body {
     background: white;
     color: #222;
-    font-family: "Arial", sans-serif
+    font-family: rob;
 }
 
 button, select, input, fieldset, form, label, legend {
-    font-family: "Arial", sans-serif
+    font-family: rob;
 }
 
 img {
@@ -242,7 +246,7 @@ ul.ul li, ol.ol li {
 }
 
 .linklike {
-    color: #00e;
+    color: #ffffff;
     cursor: pointer
 }
 
@@ -420,7 +424,7 @@ section.body {
 }
 
 .buttongroup a:visited {
-    color: #00e
+    color: #0696d4;
 }
 
 .toggle-arrow {
@@ -694,8 +698,8 @@ section.body {
 
 .global-header {
     *zoom: 1;
-    border-bottom: 1px #ccc solid;
-    background: #eee;
+    border-bottom: 1px #0644d4#0666d4 solid;
+    background-color:#0696d4 ;
     height: 100%;
     line-height: 1.925em;
     min-height: 1.1em;
@@ -874,7 +878,7 @@ table.four_pane_search {
     padding: 0;
     position: absolute;
     *position: static;
-    right: 0
+    right: 0;
 }
 
 .userlinks a {
@@ -1148,7 +1152,7 @@ table.four_pane_search {
 }
 
 footer {
-    background: #eee;
+    background: #0696d4;
     border-top: 1px solid #ccc;
     bottom: 0;
     left: 0;
@@ -1172,7 +1176,9 @@ footer {
 footer .clfooter li {
     display: inline;
     padding: 0 4px;
-    font-size: small
+    font-size: small;
+    font-family: rs;
+    color: white;
 }
 
 footer .clfooter li a {
