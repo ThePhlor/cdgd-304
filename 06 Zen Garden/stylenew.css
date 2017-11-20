@@ -27,6 +27,7 @@ body {
     hyphens:none;
 	}
 
+
 h1 {
     font-family:'oswald', sans-serif;
     font-weight:700;
@@ -63,7 +64,7 @@ h3 {
     font-family: 'oswald';
     font-size: 12px;
 	letter-spacing: 1px; 
-	margin-bottom: 0;
+	margin-bottom: 10px;
     color: black;
 	}
 a:link { 
@@ -85,18 +86,48 @@ abbr {
 	}
 
 
-/* specific divs */
-.page-wrapper { 
-/*	background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left; */
-	padding: 0 175px 0 110px;  
-	margin: 0; 
-	position: relative;
-	}
 
 .intro { 
 	min-width: 470px;
 	width: 100%;
 	}
 
+#zen-summary {
+    width: 170px;
+    margin-left: 80px;
+    margin-top: 50px;
+    
+}
+
+#zen-preamble {
+    width: 300px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+#zen-explanation {
+    width: 300px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+#zen-participation {
+    width: 300px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+#zen-benefits {
+    width: 300px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+#zen-requirements {
+    width: 300px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
 
 
