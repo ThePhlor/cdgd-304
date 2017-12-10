@@ -3,14 +3,15 @@
 
         <title>Austin Harvey</title>
 
-        <link rel="stylesheet" href="cdgd-304/15_Production/austin-home-style.css">
+        <link rel="stylesheet" href="austin-home-style.css">
 
         <link href="https://fonts.googleapis.com/css?family=Ubuntu:500" rel="stylesheet">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-        <script src="cdgd-304/15_Production/masonry.pkgd.min.js"></script>
-        <script src="cdgd-304/15_Production/imagesloaded.pkgd.min.js"></script>
+        <script src="masonry.pkgd.min.js"></script>
+        
+        <script src="imagesloaded.pkgd.min.js"></script>
 
 
 
@@ -22,45 +23,45 @@
 
             <div class="nav">
 
-                <img id="sign" src="cdgd-304/15_Production/aharvey.png"/>
+                <img id="sign" src="aharvey.png"/>
 
-                <h1 id="home">Home</h1>
+                <h1 id="home"><a id="home-link" href="index.html">Home</a></h1>
 
-                <h1 id="about">About</h1>
+                <h1 id="about"><a id="about-link" href="about.html">About</a></h1>
 
                 <h2 id="email">apharvey@massart.edu</h2>
 
                 <h2 id="insta">@austinharvey10</h2>
+                
+                <p id="filter"><a id="painting" href="#">Paintings</a> <a id="drawing" href="#">Drawings</a> <a id="bw" href="#">Black and White</a> <a id="color" href="#">Color</a> <a id="reset" href="#">Reset</a></p>
 
             </div>
-
-            <p>filter: <a id="painting" href="#">painting</a> <a id="bw" href="#">b+w</a> <a id="color" href="#">color</a> <a id="reset" href="#">reset</a></p>
         
             <div class="work1">
 
-                <img class="grid-item drawing bw" src="cdgd-304/15_Production/untitled_pen_2017.jpg"/>
+                <img class="grid-item drawing bw" src="untitled_pen_2017.jpg"/>
 
-                <img class="grid-item painting color" src="cdgd-304/15_Production/The%20Path%20Not%20Taken_%20acrylic_2017.jpg"/>
+                <img class="grid-item painting color" src="The%20Path%20Not%20Taken_%20acrylic_2017.jpg"/>
 
-                <img class="grid-item painting color" src="cdgd-304/15_Production/Greed_watercolor%20_%20ink_%202017-thumbnail.jpg"/>
+                <img class="grid-item painting color" src="Greed_watercolor%20_%20ink_%202017-thumbnail.jpg"/>
 
-                <img class="grid-item painting color" src="cdgd-304/15_Production/Contraceptive%20Nightmare_acrylic_2017.jpg"/>
+                <img class="grid-item painting color" src="Contraceptive%20Nightmare_acrylic_2017.jpg"/>
 
-                <img class="grid-item painting color" src="cdgd-304/15_Production/Vonnegut_Mixed%20Media_2017.jpg"/>
+                <img class="grid-item painting color" src="Vonnegut_Mixed%20Media_2017.jpg"/>
 
-                <img class="grid-item painting color" src="cdgd-304/15_Production/Wine%20Mom_mixed%20media_2017.jpg"/>
+                <img class="grid-item painting color" src="Wine%20Mom_mixed%20media_2017.jpg"/>
 
-                <img class="grid-item grid-item--width2 painting color" src="cdgd-304/15_Production/ACS%20Kids%20Illustration_%20watercolor_2017.jpg"/>
+                <img class="grid-item grid-item--width2 painting color" src="ACS%20Kids%20Illustration_%20watercolor_2017.jpg"/>
 
-                <img class="grid-item grid-item--width2 drawing bw" src="cdgd-304/15_Production/The%20Laborer%20and%20the%20Nightingale_scratchboard_2017%20.jpg"/>
+                <img class="grid-item drawing bw" src="The%20Laborer%20and%20the%20Nightingale_scratchboard_2017%20.jpg"/>
 
-                <img class="grid-item grid-item--width2 painting color" src="cdgd-304/15_Production/Doggy%20Devito_acrylic_2017.jpg"/>
+                <img class="grid-item grid-item--width2 painting color" src="Doggy%20Devito_acrylic_2017.jpg"/>
 
-                <img class="grid-item grid-item--width2 painting color" src="cdgd-304/15_Production/Public%20Transit_watercolor_2017.jpg"/>
+                <img class="grid-item grid-item--width2 painting color" src="Public%20Transit_watercolor_2017.jpg"/>
 
-                <img class="grid-item grid-item--width2 painting color" src="cdgd-304/15_Production/Bagstiv_mixed%20media_2017.jpg"/>
+                <img class="grid-item grid-item--width2 painting color" src="Bagstiv_mixed%20media_2017.jpg"/>
 
-                <img class="grid-item grid-item--width2 drawing color" src="cdgd-304/15_Production/erin.jpg"/>
+                <img class="grid-item grid-item--width2 drawing color" src="erin.jpg"/>
 
 
             </div>
@@ -98,6 +99,11 @@
             $( ".work1 img" ).not( ".painting" ).slideUp( 500 ).addClass("invisible");      
             $( ".work1 img.painting" ).slideDown( 500 );
             $('.work1').masonry('reloadItems') ;
+        } ) ;
+        $("#drawing").on("click", function () {             
+            $( ".work1 img" ).not( ".color" ).slideUp( 500 ).addClass("invisible"); 
+            $( ".work1 img.drawing" ).slideDown( 500 );
+            $grid.masonry('reloadItems') ;
         } ) ;
         $("#bw").on("click", function () {
             $( ".work1 img" ).not( ".bw" ).slideUp( 500 ).addClass("invisible");

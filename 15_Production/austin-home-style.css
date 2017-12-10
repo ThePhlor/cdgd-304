@@ -26,7 +26,14 @@ html {
     float:left;
 }
 
-
+#filter {
+    display: grid;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: Medium;
+    margin-top: 50px;
+    margin-left: 50px;
+    line-height: 30px;
+}
 
 #sign {
     margin-left: 25px;
@@ -71,3 +78,25 @@ h2 {
 
 .invisible {
 }
+
+.grid-item {
+    margin-bottom: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration-color: black;
+}
+
+
+
+
+
+
+
+
+
+
