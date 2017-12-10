@@ -43,6 +43,14 @@ h1 {
     margin-left: 50px;
 }
 
+h1 a:hover {
+    color: #4056ff;
+}
+
+#home {
+    color:#4056ff;
+}
+
 h2 {
     margin-left: 50px;
     color: gray;
@@ -80,7 +88,8 @@ h2 {
 }
 
 .grid-item {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 a:link {
@@ -88,7 +97,10 @@ a:link {
 }
 
 a:visited {
-    text-decoration-color: black;
+    color: black;
+}
+
+
 }
 
 
