@@ -104,12 +104,69 @@ a:visited {
     color: black;
 }
 
+#work {
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-bottom: 200px;
+}
 
+.work-image1 {
+    width: 500px;
+}
 
+#title {
+    margin-bottom: 10px;
+    width: 400px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12pt;
+    font-weight: 700;
+}
 
+#title2 {
+    width: 200px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12pt;
+    font-weight: 400;
+}
 
+span {
+    font-weight:400
+}
 
+#blurb {
+    margin-top: 20px;
+    width: 400px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 10pt;
+    font-weight:400;
+}
 
+.work-image2 {
+    margin-top: 100px;
+    width: 500px;
+}
 
+.work-image3 {
+    margin-top: 100px;
+    width: 500px;
+}
 
+.work-image4 {
+    margin-top: 100px;
+    width: 500px;
+}
 
+.work-image5 {
+    margin-top: 100px;
+    width: 500px;
+}
+
+.work-image6 {
+    margin-top: 100px;
+    width: 500px;
+}
+
+.work-image7 {
+    margin-top: 100px;
+    width: 500px;
+}
